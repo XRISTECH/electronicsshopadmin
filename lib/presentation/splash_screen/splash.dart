@@ -11,7 +11,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     Future.delayed(const Duration(seconds: 3), () {
-      NavigatorService.popAndPushNamed(AppRoutes.onboarding);
+      // NavigatorService.popAndPushNamed(AppRoutes.onboarding);
     });
     super.initState();
   }
@@ -52,8 +52,8 @@ class _SplashState extends State<Splash> {
                   ],
                 ),
                 SizedBox(height: 30),
-               // SpinKitRipple(color: Colors.white, size: 50.0),
-               SpinKit
+                SpinKitRipple(color: Colors.white, size: 50.0),
+               
               ],
             ),
           ),
